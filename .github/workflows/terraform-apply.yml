@@ -6,7 +6,7 @@ on:
       environment:
         description: "Environment to apply (dev/qa/prod)"
         required: true
-        default: "dev"
+        default: "TEST"
         type: choice
         options:
           - dev
